@@ -3,7 +3,7 @@
 ## Contexto
 Projeto de aprendizado. O dono (Caio) é engenheiro de dados sênior (SQL, Python, Azure/Databricks),
 com background web antigo (PHP 5 + Apache + AJAX). Forte em dados; precisa de explicação em:
-Vue, Docker, Git moderno, DevOps, arquitetura de APIs. Não explique o que ele já domina (SQL, Python básico).
+Vue, Docker, Git moderno, DevOps, arquitetura de APIs.
 
 ## Modo de trabalho (importante)
 - Antes de cada fase, proponha um plano (plan mode) e espere aprovação.
@@ -15,7 +15,7 @@ Vue, Docker, Git moderno, DevOps, arquitetura de APIs. Não explique o que ele j
 - Rode testes e lint antes de dizer que um passo terminou e mostre o resultado.
 
 ## Stack
-- Backend: Python 3.12+, FastAPI, Pydantic v2, SQLAlchemy 2.0 (síncrono), Alembic, SQLite, Pytest, Ruff, uv
+- Backend: Python 3.13, FastAPI, Pydantic v2, SQLAlchemy 2.0 (síncrono), Alembic, SQLite, Pytest, Ruff, uv
 - Frontend: Vue 3 (Composition API, `<script setup>`), Vite, Vue Router, `fetch`. JavaScript puro (sem TypeScript por ora), sem Pinia por ora
 - Portas: API 8000, front 5173. CORS libera apenas http://localhost:5173
 
